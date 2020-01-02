@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/decorator">
+	<decorator name="main" page="deco.jsp">
+		<pattern>*.shop</pattern>
+	</decorator>
+		
+	<!-- layout 예외 설정 -->
+	<excludes>
+		<pattern>/user/change*</pattern>
+	</excludes>
+</decorators>
